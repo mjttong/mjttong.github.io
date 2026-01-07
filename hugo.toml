@@ -1,0 +1,7 @@
+baseURL = 'https://mjttong.github.io/'
+languageCode = 'ko-kr'
+title = 'mjttong'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
