@@ -98,3 +98,7 @@ path = 'github.com/alex-shpak/hugo-book'
   # When set to 'preache' it enables a service worker that caches visited pages and resources for offline use.
   # Possible values are false | true | 'precache'
   BookServiceWorker = 'precache'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
